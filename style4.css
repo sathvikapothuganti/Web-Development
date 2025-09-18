@@ -1,0 +1,14 @@
+.tour{
+    text-decoration: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.bike {
+    grid-column: span 2;
+  }
+  .tall {
+    grid-row: span 2;
+  }
+  
