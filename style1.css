@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  footer {
+    text-align: center;
+    padding: 10px;
+  }
+  footer a:hover {
+    color: pink;
+  }

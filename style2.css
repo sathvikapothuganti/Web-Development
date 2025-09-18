@@ -1,0 +1,19 @@
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    text-align: center;
+  }
+  
+  .team-mate img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 8px;
+  }
+.timeline{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+  }
+  

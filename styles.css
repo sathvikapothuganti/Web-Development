@@ -1,0 +1,42 @@
+.nav{
+    position: sticky;
+    justify-content: center;
+    gap: 2em;
+}
+.nav a{
+    text-decoration: underline;
+}
+.hero{
+    position: relative;
+  text-align: center;
+}
+hero h1, 
+.hero p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.menu-sec {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+}  
+.menu-card {
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+.menu-card img {
+    width: 100%;
+    height: auto;
+}
+.hours{
+    display: flex;
+  gap: 2em;
+}
+.map-placeholder {
+    border: 1px solid #ccc;
+    height: 200px;
+    text-align: center;
+  }
+  
